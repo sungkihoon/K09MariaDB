@@ -223,3 +223,22 @@ SELECT * FROM board WHERE bname = 'notice';
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
