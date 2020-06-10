@@ -60,7 +60,7 @@ public class BbsDAO {
 	}
    
 	
-	//글쓰지 처리 메소드
+	//글쓰기 처리 메소드
 	public int insertWrite(BbsDTO dto) {
 		
 	   //실제 입력된 행의 갯수를 저장하기 위한 변수
@@ -86,7 +86,7 @@ public class BbsDAO {
 			affected = psmt.executeUpdate();
 		} 
 		catch (Exception e) {
-			System.out.println("insert중 예외발생");
+			System.out.println("insert중 예외발생zz");
 			e.printStackTrace();
 		}
 		return affected;

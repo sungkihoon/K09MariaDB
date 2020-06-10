@@ -2,7 +2,7 @@
 <%@page import="model.BbsDAO"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<%@ include file="../common/isFlag.jsp" %>
+<%@ include file="../common/isFlag.jsp" %> 
 
 <%
 /*
@@ -10,7 +10,7 @@
 	: 리스트에서 검색 후 상세보기, 그리고 다시 리스트 보기를
 	눌렀을 때 검색이 유지되도록 처리하기 위한 코드 삽입.
 */
-String queryStr = "bname"+bname+"&";
+String queryStr = "bname="+bname+"&";
 String searchColumn = request.getParameter("searchColumn");
 String searchWord = request.getParameter("searchWord");
 if(searchWord != null) {

@@ -6,7 +6,7 @@
 <%@ include file="../common/isFlag.jsp" %>
 
 <%-- DeleteProc.jsp --%>
-
+ 
 <%@include file="../common/isLogin.jsp" %>
 <%
 

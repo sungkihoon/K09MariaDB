@@ -7,7 +7,7 @@
 <%@page import="model.BbsDAO"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-
+ 
 <!-- 필수 파라미터 체크 로직 -->
 <%@ include file="../common/isFlag.jsp" %>
 
